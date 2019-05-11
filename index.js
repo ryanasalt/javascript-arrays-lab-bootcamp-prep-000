@@ -6,7 +6,7 @@ function kittens(array){
 }
 
 function destructivelyAppendKitten(name){
-  
+
 }
 
 function destructivelyPrependKitten(name){
@@ -34,5 +34,5 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  
+
 }
