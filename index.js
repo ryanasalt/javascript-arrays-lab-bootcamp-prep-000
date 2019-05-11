@@ -14,7 +14,8 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(){
-  return kittens.slice(1, kittens.length-1);
+  kittens.pop();
+  return kittens;
 }
 
 function destructivelyRemoveFirstKitten(){
